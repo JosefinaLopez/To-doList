@@ -1,0 +1,69 @@
+.modal>.modal-content {
+    padding: 45px;
+    text-align: center;
+}
+
+.container-hora {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+#boton {
+    position: relative;
+    z-index: 999;
+    border-radius: 50%;
+    height: 40px;
+    background: #6e0f9d;
+    left: 56rem;
+}
+
+#boton:hover {
+    background: #a672c0;
+}
+
+.contenedor-xd {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card {
+    height: 60px;
+    width: 70%;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+#estado {
+    color: white;
+    border-radius: 30px;
+    padding: 5px;
+    display: block;
+    width: 20%;
+    text-align: center;
+    background: purple;
+    font-size: 1rem;
+    position: relative;
+    top: -3rem;
+    left: 34rem;
+}
+
+.xd {
+    position: relative;
+    left: 2rem;
+}
+
+.fecha {
+    padding: 5px;
+    color: rgb(97, 93, 93);
+    font-size: 1rem;
+    position: relative;
+    bottom: 3rem;
+    right: -16rem;
+}
+
+.container-tbl {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
